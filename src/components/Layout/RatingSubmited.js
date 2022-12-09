@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./RatingSubmitted.module.scss";
 import illustration from "../../assets/images/illustration-thank-you.svg";
 
 import Card from "../UI/Card";
 
 const RatingSubmited = (props) => {
-  const [showRating, setShowRating] = useState(null);
 
   return (
     <Card>

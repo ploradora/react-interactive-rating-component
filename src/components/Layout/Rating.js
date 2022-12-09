@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./Rating.module.scss";
 import Card from "../UI/Card";
 import icon from "../../assets/images/icon-star.svg";
