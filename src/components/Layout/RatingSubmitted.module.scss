@@ -1,0 +1,28 @@
+@import '../../assets/Variables.scss';
+
+section {
+    text-align: center;
+  .image-container {
+    img {
+      display: block;
+      margin: 20px auto;
+    }
+  }
+  .selected-rating {
+    margin: auto;
+    width: 180px;
+    color: $Orange;
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 15px;
+    background-color: lighten($Dark-blue, 3%);
+  }
+  h1 {
+    color: $White;
+  }
+  .main-text {
+    color: $Light-grey;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+}

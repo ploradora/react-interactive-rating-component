@@ -1,0 +1,23 @@
+@import '../../assets/Variables.scss';
+
+article {
+    position: absolute;
+    z-index: 50;
+    background-color: lighten($Dark-blue, 3%);
+    padding: 20px 45px;
+    border-radius: 30px;
+    h2 {
+        text-align: center;
+        color: $White;
+    }
+    button {
+        @include button;
+        
+    }
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(38, 38, 38, 0.607);
+    width: 100%;
+    height: 100vh;
+}

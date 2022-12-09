@@ -1,0 +1,67 @@
+@import "../../assets/Variables.scss";
+
+.rating {
+  font-family: $ff;
+  .image-container {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+    background-color: lighten($Dark-blue, 3%);
+    .image {
+      width: 15px;
+    }
+  }
+  h1 {
+    margin: unset;
+    font-size: 30px;
+    color: $White;
+  }
+  .main-text {
+    color: $Light-grey;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  .rating-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .rate {
+      font-size: 17px;
+      font-family: $ff;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: unset;
+      color: $Light-grey;
+      background-color: lighten($Dark-blue, 3%);
+      cursor: pointer;
+      &:hover {
+        color: $White;
+        background-color: $Orange;
+      }
+    }
+    .active {
+      color: $White;
+      background-color: $Light-grey;
+      &:hover {
+        background-color: $Light-grey;
+      }
+    }
+  }
+  .btn {
+    @include button;
+  }
+  .submit-active {
+    color: $Orange;
+    background-color: $White;
+    &:hover {
+      color: $Orange;
+      background-color: $White;
+    }
+  }
+}
